@@ -1,5 +1,5 @@
 FROM centos
-
+MAINTAINER manoj <maracheea.m@gmail.com>
 RUN  yum -y update \
     && yum -y install openssh-server ansible \
     && /usr/bin/ssh-keygen -A \
